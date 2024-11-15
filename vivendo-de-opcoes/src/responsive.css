@@ -1,0 +1,162 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .vipList-info h1 {
+        font-size: 2.4em !important;
+    }
+
+    .vipList-activity-icons {
+        flex-direction: column;
+    }
+
+    .circles {
+        flex-direction: column;
+    }
+
+    .form-modal {
+        padding: 0.2em !important;
+    }
+
+    .times {
+        margin: 0px 0.5em 0px 0px;
+    }
+
+    #survey h1 {
+        font-size: 2em !important;
+    }
+
+    #politic {
+        padding: 0px 0.9em 2em 0.9em !important;
+    }
+
+    #politic h1 {
+        font-size: 2em !important;
+    }
+
+    #terms h1 {
+        font-size: 2em !important;
+    }
+
+    .error-404 h3 {
+        padding: 0.5em;
+        font-size: 1.3em !important;
+    }
+
+    /* Components */
+    .subscription-submit {
+        font-size: 1.2em !important;
+    }
+
+    .subscription-confirm {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .subscription-deny {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .survey-form {
+        padding: 0.5em !important;
+    }
+
+    .survey-deny {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .testimony-form {
+        padding: 1em 0px 1em 0px !important;
+    }
+
+    .testimony-text h2 {
+        font-size: 1.5em !important;
+    }
+
+    .testimony-text p {
+        font-size: 0.8em !important;
+    }
+
+    .testimony-examples {
+       flex-direction: column;
+    }
+
+    .testimony-image {
+        max-height: none !important;
+        width: 100%;
+       
+    }
+
+    .testimony-confirm {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+
+    .testimony-deny {
+        padding: 0.5em 1em 0.5em 1em;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .politic-modal button {
+        padding: 0px 0.5em 0px 0.5em;
+        width: auto !important;
+    }
+
+    .vipList-info button {
+        font-size: 1.4em !important;
+        padding: 0.4em !important;
+    }
+    
+    .circle-three {
+        display: none;
+    }  
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .circle-four {
+        display: none;
+    }
+
+    /* Components */
+    .survey-form-item {
+        width: 100% !important;
+    }
+
+    .survey-submit {
+        width: 100% !important;
+    }
+
+    .testimony-input {
+        width: 100% !important;
+    }
+
+    .testimony-textarea {
+       width: 100% !important;
+    }
+
+    .testimony-authorization {
+        width: 100% !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .vipList-activity-icons {
+        padding: 0px 0px 3em 0px;
+    }
+
+    .politic-modal button {
+        font-size: 1.2em !important;
+    }
+    
+}
+
+
+/* Extra extra large devices (extra large desktops, 1318px and up) */
+@media (min-width: 1400px) {
+    #vipList {
+        height: 80vh;
+    }
+}

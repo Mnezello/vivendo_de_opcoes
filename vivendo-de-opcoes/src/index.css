@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Open sans';
+  src: url('./assets/fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open sans';
+  src:  url('./assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open sans';
+  src:   url('./assets/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(255, 255, 253);
+  background-color:rgb(255, 255, 253); ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f13f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.979);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(43, 42, 42);
+}

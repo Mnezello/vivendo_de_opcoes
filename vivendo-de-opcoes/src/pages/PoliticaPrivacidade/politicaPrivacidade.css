@@ -1,0 +1,70 @@
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+
+.politic-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/politicBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;  
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 9, 9);
+    opacity: 0.90;
+    z-index: -1;
+}
+
+#politic {
+    padding: 0px 2em 3em 2em;
+}
+
+#politic h1 {
+    color: rgb(255, 255, 253);
+    font-weight: 700;
+    font-size: 2.9em;
+    text-align: center;
+    margin: 0.5em;
+}
+
+#politic h2 {
+    color: rgb(255, 255, 253);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 2.5em 0px 0.5em 0px;
+}
+
+#politic p {
+    color: rgb(200, 200, 200);
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: justify;
+}
+
+#politic ul {
+    color: rgb(200, 200, 200);
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: justify;
+}

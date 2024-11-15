@@ -1,0 +1,192 @@
+.testimony-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimony-text h2 {
+   color: rgb(255, 217, 0);
+   font-size: 1.8em;
+   font-weight: 600;
+   margin: 0px 0px 1em 0px;
+}
+
+.testimony-text p {
+    color: rgb(255, 255, 253);
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.testimony-examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8em;
+}
+
+.testimony-image {
+    max-height: 260px;
+}
+
+.testimony-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1em 5em 1em 5em;
+}
+
+.testimony-input {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+    background-color: rgb(255, 255, 253);
+    opacity: 0.9;
+    border: 0px;
+    border-radius: 3em;
+    padding: 0.3em 1em 0.3em 2em;
+    margin: 0.5em;
+    width: 90%;
+    height: 3.3em;
+}
+
+.testimony-input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    opacity: 1;
+    color: rgb(50, 50, 50);
+}
+
+.testimony-input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.testimony-textarea {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+    background-color: rgb(255, 255, 253);
+    opacity: 0.9;
+    border: 0px;
+    border-radius: 1em;
+    padding: 0.3em 1em 0.3em 2em;
+    margin: 0.5em;
+    width: 90%;
+    height: 7em;
+}
+
+.testimony-textarea:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    opacity: 1;
+    color: rgb(50, 50, 50);
+}
+
+.testimony-textarea::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.testimony-form span {
+    color: rgb(255, 74, 74);
+    font-size: 0.9em;
+    margin: 0px 0px 0.6em 0px;
+    text-align: center;
+}
+
+.testimony-authorization {
+    color: rgb(200, 200, 200);
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 90%;
+    text-align: justify;
+}
+
+.testimony-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+#authorization {
+    min-height: 1.5em;
+    min-width: 1.5em;
+    cursor: pointer;
+}
+
+.authorization-label {
+    margin: 0px 0px 0px 1em;
+}
+
+.testimony-submit {
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0.6em;
+    margin: 0.5em 0px 0.5em 0px;
+    border-radius: 0.3em;
+    border: 0px;
+    width: 80%;
+    white-space: normal;
+    word-wrap: break-word;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.testimony-submit:hover {
+    background-color: rgba(255, 217, 0, 0.815);
+}
+
+.testimony-confirm {
+    color: rgb(0, 155, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony-confirm h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.testimony-confirm h2 {
+    color: rgb(200, 200, 200);
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.testimony-deny {
+    color: rgb(255, 74, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony-deny h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.testimony-deny h2 {
+    color: rgb(200, 200, 200);
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+}

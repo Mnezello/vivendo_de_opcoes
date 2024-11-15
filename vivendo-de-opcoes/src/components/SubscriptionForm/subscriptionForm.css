@@ -1,0 +1,174 @@
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.3em;
+}
+
+.subscription-form span {
+    color: rgb(255, 74, 74);
+    font-size: 0.9em;
+    margin: 0px 0px 0.6em 0px;
+    text-align: center;
+}
+
+.subscription-input {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: rgb(170, 170, 170);
+    background-color: rgb(255, 255, 253);
+    opacity: 0.9;
+    border: 0px;
+    border-radius: 3em;
+    padding: 0.3em 1em 0.3em 2em;
+    margin: 0.5em;
+    width: 90%;
+    height: 3.3em;
+}
+
+.subscription-input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    opacity: 1;
+    color: rgb(50, 50, 50);
+}
+
+.subscription-input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.subscription-clearance {
+    color: rgb(200, 200, 200);
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 90%;
+    text-align: justify;
+}
+
+.subscription-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+#clearance {
+    min-height: 1.5em;
+    min-width: 1.5em;
+    cursor: pointer;
+}
+
+.subscription-label {
+    margin: 0px 0px 0px 1em;
+}
+
+.subscription-submit {
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0.6em;
+    margin: 0.5em 0px 0.5em 0px;
+    border-radius: 0.3em;
+    border: 0px;
+    max-width: 90%;
+    white-space: normal;
+    word-wrap: break-word;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.subscription-submit:hover {
+    background-color: rgba(255, 217, 0, 0.815);
+}
+
+.subscription-warning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0.6em 2em 0.6em 2em;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+.subscription-warning a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.subscription-warning a:hover {
+    color: rgb(255, 217, 0);
+    text-decoration: none;
+}
+
+.loader-modal {
+    width: 50rem;
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100vh - 2rem);
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.subscription-confirm {
+    color: rgb(0, 155, 52);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-confirm h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.subscription-confirm h2 {
+    color: rgb(200, 200, 200);
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subscription-deny {
+    color: rgb(255, 74, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-deny h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.subscription-deny h2 {
+    color: rgb(200, 200, 200);
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+}

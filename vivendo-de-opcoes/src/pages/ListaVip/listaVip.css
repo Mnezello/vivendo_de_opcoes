@@ -1,0 +1,191 @@
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+
+#vipList {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.vipList-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/mainBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;  
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 9, 9);
+    opacity: 0.90;
+    z-index: -1;
+}
+
+.vipList-info {
+    color: rgb(255, 255, 253);
+    padding: 0px 1em 0px 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vipList-info h1 {
+    font-weight: 900;
+    font-size: 2.9em;
+    margin: 0.2em 0px 0.3em 0px;
+    line-height: 66px;
+}
+
+.vipList-info button {
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 255, 253);
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.6em;
+    margin: 0.5em 0px 1em 0px;
+    border-radius: 0.3em;
+    border: 0px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.vipList-info button:hover {
+    background-color: rgba(255, 217, 0, 0.815);
+}
+
+.gomes-image {
+    height:25em;
+    width: 19em;
+    border-radius: 0.2em;
+    margin: 2em 0px 1em 0px;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; 
+}
+
+.vipList-text h2 {
+    color: rgb(255, 255, 253);
+    font-size: 1.9em;
+    margin: 0.8em;
+    padding: 0px 0.3em 0.3em 0.3em;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.vipList-activity-icons {
+    color: rgb(255, 255, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 7em 0px;
+    margin: 1.2em 0px 0px 0px;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    margin: 1em 2em 1em 2em;
+}
+
+.circle-one {
+    opacity: 0.1;
+    margin: 0.4em;
+}
+
+.circle-two {
+    opacity: 0.4;
+    margin: 0.4em;
+}
+
+.circle-three {
+    opacity: 0.6;
+    margin: 0.4em;
+}
+
+.circle-four {
+    opacity: 0.8;
+    margin: 0.4em;
+}
+
+.circle-five {
+    opacity: 1;
+    margin: 0.4em;
+}
+
+.form-modal {
+    width: 50rem;
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    position: relative;
+    background-color: rgb(1, 1, 4);
+    opacity: 0.90;
+    color: rgb(255, 255, 253);
+    border: 0px;
+    outline: none;
+    border-radius: 0.3em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.ReactModal__Html--open, .ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.form-overlay {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba( 126, 126, 126, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+}
+
+.timesForm {
+    width: 100%;
+    text-align: end;
+    color: rgb(200, 200, 200);
+}
+
+.times:hover {
+    cursor: pointer;
+}
